@@ -141,4 +141,4 @@ dmypy.json
 cython_debug/
 
 .github/
-other_requirements.txt
+other_requirements.txt/

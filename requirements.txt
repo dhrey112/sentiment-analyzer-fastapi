@@ -24,3 +24,5 @@ threadpoolctl==2.1.0
 toml==0.10.1
 tqdm==4.51.0
 uvicorn==0.12.2
+uvloop
+httptools
