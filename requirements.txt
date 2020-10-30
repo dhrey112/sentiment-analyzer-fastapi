@@ -1,10 +1,13 @@
 atomicwrites==1.4.0
 attrs==20.2.0
+certifi==2020.6.20
+chardet==3.0.4
 click==7.1.2
 colorama==0.4.4
 fastapi==0.61.1
 gunicorn==20.0.4
 h11==0.11.0
+idna==2.10
 iniconfig==1.1.1
 joblib==0.17.0
 nltk==3.5
@@ -16,6 +19,7 @@ pydantic==1.7.1
 pyparsing==2.4.7
 pytest==6.1.2
 regex==2020.10.28
+requests==2.24.0
 scikit-learn==0.23.2
 scipy==1.5.3
 sdl==0.0.0
@@ -25,6 +29,7 @@ starlette==0.13.6
 threadpoolctl==2.1.0
 toml==0.10.1
 tqdm==4.51.0
+urllib3==1.25.11
 uvicorn==0.12.2
 uvloop
 httptools
