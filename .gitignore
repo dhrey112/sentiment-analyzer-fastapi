@@ -136,9 +136,7 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
+other_requirements.txt
 
 # Cython debug symbols
 cython_debug/
-
-.github/
-other_requirements.txt/
