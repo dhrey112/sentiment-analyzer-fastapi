@@ -89,3 +89,5 @@ virtualenv-clone==0.5.4
 Werkzeug==1.0.1
 wrapt==1.12.1
 yarl==1.5.1
+uvloop
+httptools
