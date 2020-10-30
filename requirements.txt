@@ -3,6 +3,7 @@ attrs==20.2.0
 click==7.1.2
 colorama==0.4.4
 fastapi==0.61.1
+gunicorn==20.0.4
 h11==0.11.0
 iniconfig==1.1.1
 joblib==0.17.0
