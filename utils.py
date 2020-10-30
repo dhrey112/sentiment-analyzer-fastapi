@@ -29,8 +29,7 @@ class DenseTransformer(TransformerMixin):
     def fit(self, X, y=None, **fit_params):
         return self
 
-    @staticmethod
-    def transform(self, X, y=None, **fit_params):
+    def transform (self, X, y=None, **fit_params):
         return X.todense()
 
     def __str__(self):

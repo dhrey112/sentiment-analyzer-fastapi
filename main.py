@@ -85,12 +85,12 @@ def predict_all(parameters: PredictAllRequest):
     # the final response to send back
     response = {}
 
-    x = [text]  # the input
+    X = [text]  # the input
     for model in models:
         response[model] = {}
 
         for vectorizer in models[model]:
-            y = models[model][vectorizer].predict(x)  # prediction
+            y = models[model][vectorizer].predict(X)  # prediction
             response[model][vectorizer] = "positive" if y else "negative"
 
     json_compatible_item_data = jsonable_encoder(response)
